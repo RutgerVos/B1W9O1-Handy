@@ -36,19 +36,19 @@ ul{
 
 li a {
     display: inline;
-    color: #000;
+    color: #ffe718;
     padding: 14px 16px;
     text-decoration: none;
 	float:left;
 }
 
 li a {
-    background-color:   #000000;
+    background-color:   #222931;
     color: white;
 }
 
 li a:hover {
-    background-color: #555;
+    background-color: #ffe718 ;
     color: white;
 }
 div{
