@@ -1,10 +1,13 @@
 ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin: 0 auto;
     overflow: hidden;
     background-color: #222931;
     font-family: 'Archivo', sans-serif;
+    width: 950px;
+    font-size: 12px;
+    font-weight: 500px;
+
 }
 
 li {
@@ -34,6 +37,8 @@ li.dropdown {
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(34,41,49,0.8);
     z-index: 1;
+    font-size: 16px;
+    font-weight: 500px;
 }
 
 .dropdown-content a {
@@ -44,8 +49,72 @@ li.dropdown {
     text-align: left;
 }
 
-.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown-content a:hover {background-color: #222931}
 
 .dropdown:hover .dropdown-content {
     display: block;
+}
+.banner1{
+    position: relative;
+     width: 300px;
+     height: 220px;
+     background-image: url('../img/banner-1.jpg');
+}
+.banner2{
+    position: relative;
+     width: 300px;
+     height: 220px;
+     background-image: url('../img/banner-2.jpg');
+}
+.banner3{
+    position: relative;
+     width: 300px;
+     height: 220px;
+     background-image: url('../img/banner-3.jpg');
+}
+.tekst{
+    font-size: 26px;
+    font-weight: bold;
+    opacity: 0;
+    transition: 0.3s;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    padding-top: 95px;
+    color: white;
+}
+.banner:hover .tekst{
+    opacity: 1;
+}
+
+.logo{
+    margin-left: 200px;
+    position: relative;
+    top: 0;
+
+}
+body{
+    overflow-x: hidden;
+}
+nav{
+    position: relative;
+    bottom: -25px;
+}
+.container{
+    height:1000px;
+    width: 1000px;
+    margin: 0 auto;
+    border: 1px solid red;
+
+}
+.icon{
+    width: 1000px;
+    margin: 0 auto;
+}
+.hover image:hover,{
+    border-color: grey;
 }
