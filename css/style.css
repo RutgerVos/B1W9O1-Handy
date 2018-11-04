@@ -59,18 +59,25 @@ li.dropdown {
      width: 300px;
      height: 220px;
      background-image: url('../img/banner-1.jpg');
+     justify-content: space-between;
+     text-align: center;
 }
 .banner2{
     position: relative;
      width: 300px;
      height: 220px;
      background-image: url('../img/banner-2.jpg');
+     justify-content: space-between;
+     text-align: center;
+
 }
 .banner3{
     position: relative;
      width: 300px;
      height: 220px;
      background-image: url('../img/banner-3.jpg');
+     justify-content: space-between;
+     text-align: center;
 }
 .tekst{
     font-size: 26px;
@@ -112,9 +119,16 @@ nav{
 
 }
 .icon{
-    width: 1000px;
+    width: 1200px;
     margin: 0 auto;
+    text-align: center;
 }
 .hover image:hover,{
     border-color: grey;
 }
+.grid-container {
+  display: grid;
+  grid-gap: 25px;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+  }
